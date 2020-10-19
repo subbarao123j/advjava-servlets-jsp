@@ -40,6 +40,7 @@ public class BatchUpdationDemo {
 			if (st != null) st.close();
 			
 			con.close();
+			//System.out.println("Database connection closed");
 			
 			
 		} else {
