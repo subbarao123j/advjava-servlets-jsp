@@ -48,6 +48,7 @@ public class BatchUpdationDemo {
 			
 			
 			System.out.println("database Not connected");
+			//System.out.println("Database connection Couldnot connected");
 		}
 		
 		
