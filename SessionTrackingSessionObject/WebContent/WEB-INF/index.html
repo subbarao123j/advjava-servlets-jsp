@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>index.html</title>
+</head>
+<body>
+	<form action="AddItemservlet" method="post">
+	<h4 align="center">Welcome for Session Tracking Using Http Session
+		Object</h4>
+
+	<table align="center">
+		<tr>
+			<td>Select Products:</td>
+			<td><select name="products" style="width: 172px;">
+					<option value="">Select</option>
+					<option value="Harddisks">Harddisk</option>
+					<option value="Ram">Ram</option>
+
+			</select></td>
+			<br>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+
+		</tr>
+		<tr>
+			<td align="right">Enter No of Items:</td>
+			<td><input type="text" name="quantity" autocomplete="off" /></td>
+			<td><input type="submit" value="AddItem" /></td>
+		</tr>
+
+	</table>
+	</form>
+
+	<form action="DisplayCartList" method="post">
+
+		<table align="center">
+
+			<tr>
+
+				<td>&nbsp;</td>
+				<td><input type="submit" value="CheckOutItems" /></td>
+				<td>&nbsp;</td>
+
+
+			</tr>
+		</table>
+
+
+
+	</form>
+</body>
+</html>
